@@ -1,7 +1,8 @@
+import LandingPage from "src/pages/LandingPage";
 import { useState } from "react";
 
 function App() {
-  return <div className="text-primary">sdsd</div>;
+  return <LandingPage />;
 }
 
 export default App;
