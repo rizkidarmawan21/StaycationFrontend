@@ -1,11 +1,12 @@
 import React from "react";
 import IconText from "./IconText";
 import Button from "src/elements/Button";
+import { useLocation } from "react-router-dom";
 
-export default function Header(props) {
-  console.log(props.location);
+export default function Header() {
+  const location = useLocation();
   const getNavLinkClass = (path) => {
-    return props.location.pathname === path ? "active" : "";
+    return location.pathname === path ? " active" : "";
   };
 
   return (

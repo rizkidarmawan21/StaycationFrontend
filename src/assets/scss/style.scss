@@ -66,7 +66,7 @@ header {
       li.nav-item {
         &.active {
           a.nav-link {
-            color: red;
+            color: $primary;
           }
         }
         a {
